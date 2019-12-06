@@ -1,0 +1,64 @@
+{
+"companyName" : "SooWeird.com",
+"headOffice" : "Weird City",
+"established" : "2019", 
+"founded" : "John Weirds", 
+"active" : true,
+"topFlavours" : [
+  {
+    "name" : "Crispy tarantulas", 
+    "price" : "$ 5.00",
+    "description" : "Bizarrely, they became popular and are now served as a deep-fried snack throughout the country. Apparently they taste a bit like crab.", 
+
+    "image": "product1.jpg",
+	"deals": "50% Off for members",
+	"location": "{lat: 12.5657, lng: 104.9910}"
+	 
+  },
+  
+  {
+    "name" : "Century egg", 
+    "price" : "$ 20.50",
+    "description" : "The century eggs are covered in clay, ash and salt for months, by which time the yolk is dark green and stinks of sulphur. Mmmm!",
+
+    "image" : "product2.jpg",
+	"deals": "30% Off for members",
+	"location":"{lat: 35.8617, lng: 104.1954}"
+  },
+  
+  {
+    "name" : "Stargazey Pie",
+    "price" : "$ 14.00",
+	
+    "description" : "A pie with fish that stare at the sky: Stargazey originates from the Cornish village of Mousehole in England.",
+	
+    "image" : "product3.jpg",
+	"deals": "70% Off for members",
+	"location":"{lat: 52.3555, lng: 1.1743}"
+    },
+	
+	
+	 {
+    "name" : "Huitlacoche",
+    "price" : "$ 24.90",
+	
+    "description" : "Corn smut is a fungus that turns normal corn kernels into tumour-like growths covered in blue-black spores.",
+
+    "image" : "product4.jpg",
+	"deals": "10% Off for members",
+	"location":"{lat: 23.6345, lng: 102.5528}"
+    },
+	
+	
+	 {
+    "name" : "Balut",
+    "price" : "$ 10.30",
+	
+    "description" : "This fertilised duck egg, with its partly developed embryo inside, is boiled alive and then eaten from the shell with salt, chilli and vinegar.",
+	
+    "image" : "product5.jpg",
+	"deals": "60% Off for members",
+	"location":"{lat: 12.8797, lng: 121.7740}"
+    }
+  ]
+}

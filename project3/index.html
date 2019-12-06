@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Project 3</title>
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<script src="js/main.js" async></script>
+	
+	<style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 200px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+
+	   ;
+    </style>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBWIBUuGfwNRg6rRhc69aDPHtR_pEWKLY&callback=initMap">
+    </script>
+
+</head>
+
+	<body>
+
+		<header>
+				<a href="#maps">Find Locations</a>
+		</header>
+			
+		<section>
+	
+		</section>
+			<select id="locality-dropdown" onchange="initMap()">
+			</select>	
+		<div class="maps" id="maps">
+			<div id="map"></div>
+		</div>	
+		
+	
+	</body>
+</html>
